@@ -1,10 +1,10 @@
-# C Language Course - IJC
+# C Language Course - IJC Project 1
 
 ## Implementation of Eratosthenes Sieve and Message Decoder from PPM Image File
 Evaluation: 15/15 points
 
 ## Assignment
-[Assignment link](https://github.com/kezniklm/IJC_project1/blob/8e5b2fa101763383f9cbb40bb6bed6b9c7cd7715/IJC_%20DU1.pdf)
+[Assignment link](https://github.com/kezniklm/IJC_project1/blob/main/IJC_%20DU1.pdf)
 
 ## Eratosthenes Sieve
 The Eratosthenes Sieve algorithm is an ancient Greek method for finding all prime numbers up to a given limit. It works by iteratively marking the multiples of each prime number, starting from 2, as composite (not prime). The algorithm stops when the square of the current prime exceeds the given limit. The remaining unmarked numbers are prime.
