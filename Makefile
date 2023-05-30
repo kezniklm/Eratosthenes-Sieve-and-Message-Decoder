@@ -35,13 +35,13 @@ error.o: error.h error.c
 ppm.o: ppm.h ppm.c
 	$(CC) $(CFLAGS) -c ppm.c -o ppm.o
 
-primes.o: primes.c
+primes.o: primes.c primes.h
 	$(CC) $(CFLAGS) -c primes.c -o primes.o
 
-primes-i.o: primes.c
+primes-i.o: primes.c primes.h
 	$(CC) $(CFLAGS) -DUSE_INLINE -c primes.c -o primes-i.o
 
-steg-decode.o: steg-decode.c  
+steg-decode.o: steg-decode.c steg-decode.h
 	$(CC) $(CFLAGS) -c steg-decode.c -o steg-decode.o 
 
 primes: bitset.o eratosthenes.o error.o primes.o
@@ -61,7 +61,7 @@ run: primes primes-i steg-decode
 zip:
 	zip xkezni01.zip *.c *.h Makefile
 
-.PHONY: run clean
+.PHONY: run clean zip all
 clean:
 	rm -f *.o 
 	rm -f primes 

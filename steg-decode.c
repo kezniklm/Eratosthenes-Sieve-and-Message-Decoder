@@ -7,12 +7,7 @@
 // Testované na zariadeniach s operačnými systémami: Ubuntu 20.04, Debian 10, Cent OS 7,...
 // Popis: Modul pre dekódovanie ukrytej správy z obrázku formátu PPM
 
-#include <stdio.h>
-#include <stdlib.h>
-
-#include "bitset.h"
-#include "eratosthenes.h"
-#include "ppm.h"
+#include "steg-decode.h"
 
 int main(int argc, char *argv[])
 {

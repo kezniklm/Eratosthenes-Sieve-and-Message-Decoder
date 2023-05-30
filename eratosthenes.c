@@ -7,8 +7,6 @@
 // Testované na zariadeniach s operačnými systémami: Ubuntu 20.04, Debian 10, Cent OS 7,...
 // Popis: Modul obsahujuci funkciu void Eratosthenes(bitset_t bitarray)
 
-#include <math.h>
-
 #include "eratosthenes.h"
 
 void Eratosthenes(bitset_t bitarray)

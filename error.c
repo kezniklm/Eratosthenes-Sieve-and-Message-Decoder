@@ -7,10 +7,6 @@
 // Testované na zariadeniach s operačnými systémami: Ubuntu 20.04, Debian 10, Cent OS 7,...
 // Popis: Modul obsahujuci funkcie void warning_msg(const char *fmt, ...) a void error_exit(const char *fmt, ...)
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <stdarg.h>
-
 #include "error.h"
 
 void warning_msg(const char *fmt, ...)

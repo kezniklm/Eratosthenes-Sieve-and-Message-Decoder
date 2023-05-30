@@ -7,10 +7,6 @@
 // Testované na zariadeniach s operačnými systémami: Ubuntu 20.04, Debian 10, Cent OS 7,...
 // Popis: Modul pre manipuláciu s PPM formátom
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 #include "ppm.h"
 #include "error.h"
 

@@ -7,6 +7,10 @@
 // Testované na zariadeniach s operačnými systémami: Ubuntu 20.04, Debian 10, Cent OS 7,...
 // Popis: Hlavickovy subor obsahujuci prototypy funkcíí z error.c
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdarg.h>
+
 #ifndef ERROR_H
 #define ERROR_H
 

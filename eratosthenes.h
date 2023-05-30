@@ -7,6 +7,8 @@
 // Testované na zariadeniach s operačnými systémami: Ubuntu 20.04, Debian 10, Cent OS 7,...
 // Popis: Hlavickovy subor pre prototyp funkcie Eratosthenes
 
+#include <math.h>
+
 #include "bitset.h"
 
 #ifndef ERATOSTHENES_H

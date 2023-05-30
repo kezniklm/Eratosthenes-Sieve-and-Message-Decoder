@@ -7,14 +7,7 @@
 // Testované na zariadeniach s operačnými systémami: Ubuntu 20.04, Debian 10, Cent OS 7,...
 // Popis: Modul pre vypis prvocisel ulozenych v bitovom poli
 
-#include <stdio.h>
-#include <time.h>
-
-#include "eratosthenes.h"
-#include "bitset.h"
-
-#define N 300000000
-#define PRIMES 10
+#include "primes.h"
 
 int main()
 {
